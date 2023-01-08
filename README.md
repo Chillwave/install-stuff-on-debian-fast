@@ -10,10 +10,24 @@ sh script_name.sh
 
 Replace "script_name.sh" with the name of the script you want to run.
 
+### running all scripts at once
+
+This can be done by running
+
+sudo curl -y if necessary
+
+curl -L -o install_folder.zip https://github.com/Chillwave/install-stuff-on-debian-fast/archive/master.zip
+unzip install_folder.zip
+cd install-stuff-on-debian-fast-main
+sh install_scripts/*.sh
+
+
 ## Available Scripts
 
 - `install_vscode.sh`: Installs Visual Studio Code
 - `install_signal.sh`: Installs Signal Desktop
+- `install_telegram.sh`: Installs Telegram Desktop
+- `install_google-chrome.sh`: Installs Google Chome
 
 ## Disclaimer
 
