@@ -16,10 +16,10 @@ This can be done by running
 
 sudo curl -y if necessary
 
-curl -L -o install_folder.zip https://github.com/Chillwave/install-stuff-on-debian-fast/archive/master.zip
-unzip install_folder.zip
-cd install-stuff-on-debian-fast-main
-sh install_scripts/*.sh
+- curl -L -o install_folder.zip https://github.com/Chillwave/install-stuff-on-debian-fast/archive/master.zip
+- unzip install_folder.zip
+- cd install-stuff-on-debian-fast-main
+- sh install_scripts/*.sh
 
 
 ## Available Scripts
